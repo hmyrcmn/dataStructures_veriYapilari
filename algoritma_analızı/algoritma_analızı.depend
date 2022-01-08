@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1635780022 source:c:\users\hÜmeyra\desktop\codebloksuygulamlarý\algoritma_analýzý\main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/time.h>
+

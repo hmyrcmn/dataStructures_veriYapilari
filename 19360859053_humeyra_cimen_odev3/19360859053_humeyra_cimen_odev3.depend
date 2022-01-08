@@ -1,0 +1,27 @@
+# depslib dependency file v1.0
+1640968637 source:c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\main.c
+	<stdio.h>
+	"student.h"
+	"_search.h"
+	"add_node.h"
+	"create_list.h"
+	"delete_node.h"
+	"display.h"
+	"destroy_list.h"
+
+1640968064 c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\student.h
+
+1640967790 c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\_search.h
+
+1640969085 c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\add_node.h
+	<string.h>
+	<stdlib.h>
+
+1640969178 c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\create_list.h
+
+1640968048 c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\delete_node.h
+
+1640967886 c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\display.h
+
+1640969178 c:\users\hÜmeyra\desktop\codebloksuygulamları\19360859053_humeyra_cimen_odev3\destroy_list.h
+

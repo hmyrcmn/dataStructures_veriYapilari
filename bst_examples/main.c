@@ -59,6 +59,23 @@ void* searchBST(NODE* p,char key){
     else
         return p;
 }
+//find smallest in bst 
+void* findSmallest(NODE*p){
+    if(p->left== NULL)
+        //finied
+        return(p);
+    else
+        findSmallest(p->left);
+}
+//find biggest in bst 
+void* findBiggest(NODE* p){
+    if(p->right== NULL)
+        //finied
+        return(p);
+    else
+        findSmallest(p->right);
+    
+}
 int main()
 {
         NODE* kok= add('+');
@@ -86,6 +103,10 @@ int main()
         printf("pre: \n");
         pre(kok);
 
+
+    printf("%p", searchBST(kok,'h'));
+    printf(" \n %p",findSmallest(kok));
+    printf("\n %p",findBiggest(kok));
 
     return 0;
 }

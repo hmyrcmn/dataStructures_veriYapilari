@@ -17,7 +17,7 @@ NODE* add(char data) {
     new_node->right=NULL;
      return new_node;
 };
-void inr(NODE* p)
+void inr(NODE* p) // left,node,right
 {
     if (p == NULL) {
         return;
@@ -28,7 +28,7 @@ void inr(NODE* p)
         inr(p->right);
     }
 }
-void postr(NODE* p)
+void postr(NODE* p) //left,right,node
 {
     if (p == NULL) {
         return;
@@ -39,7 +39,7 @@ void postr(NODE* p)
         printf("%c ", p->data);
     }
 }
-void pre(NODE* p){
+void pre(NODE* p){ //node,left,right
     if (p == NULL) {
         return;
     }

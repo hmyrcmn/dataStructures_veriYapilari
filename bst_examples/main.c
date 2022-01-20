@@ -49,6 +49,16 @@ void pre(NODE* p){ //node,left,right
          pre(p->right);
     }
 }
+//find spesific value
+void* searchBST(NODE* p,char key){
+    if(p== NULL) return NULL;
+    else if(key<p->data)
+        searchBST(p->left,key);
+    else if(key>p->data) 
+        searchBST(p->right,key);
+    else
+        return p;
+}
 int main()
 {
         NODE* kok= add('+');
